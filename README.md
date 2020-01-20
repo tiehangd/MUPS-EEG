@@ -26,7 +26,9 @@
    
        python ./dataloader/data_preprocessing.py
    
-   This produces data for our cross subject classification task.
+   This produces data for our cross subject task, which is stored in ./data/cross_sub
+   
+   
    
    
    
