@@ -18,6 +18,10 @@
        git clone https://github.com/tiehangd/MUPS
        
 2) Dataset preparation:
+   Download BCI-IV 2a dataset from http://bnci-horizon-2020.eu/database/data-sets, Four class motor imagery (001-2014)
+   
+   Place the 18 files inside ./data folder, run 
+   
    
 
 
