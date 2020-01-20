@@ -1,5 +1,4 @@
 # data
-data/cross_sub/*
 dataloader/__pycache__/*
 trainer/__pycache__/*
 logs/*
