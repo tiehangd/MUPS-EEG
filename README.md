@@ -28,7 +28,17 @@
    
    This produces data for our cross subject task, which is stored in ./data/cross_sub
    
+3) Running the model:
+   1) Pretraining on feature extractor
    
+      python pre_train.py
+     
+   2) Meta adaptation 
+   
+      python meta_adapt.py
+      
+      
+      
    
    
    
