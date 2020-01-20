@@ -31,11 +31,11 @@
 3) Running the model:
    1) Pretraining on feature extractor
    
-      python pre_train.py
+          python pre_train.py
      
    2) Meta adaptation 
    
-      python meta_adapt.py
+          python meta_adapt.py
       
       
       
