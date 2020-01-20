@@ -23,6 +23,7 @@
    Place the 18 files inside ./data folder
    
    Run from command line
+   
        python ./dataloader/data_preprocessing.py
    
    
