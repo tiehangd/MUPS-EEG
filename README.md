@@ -22,9 +22,11 @@
    
    Place the 18 files inside ./data folder
    
-   Run from command line
+   Data preprocess, run from command line
    
        python ./dataloader/data_preprocessing.py
+   
+   This produces data for our cross subject classification task.
    
    
    
