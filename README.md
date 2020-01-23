@@ -45,7 +45,7 @@
       
       
    
-This project is built on:
+This project depend heavily on:
    1) https://github.com/yaoyao-liu/meta-transfer-learning
    2) https://github.com/aliasvishnu/EEGNet
    
