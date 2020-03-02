@@ -1,6 +1,6 @@
 # MUPS
 
-Source code for paper "Ultra Efficient Transfer Learning with Meta Update for Cross Subject EEG Classification"
+Code for MUPS model introduced in "Ultra Efficient Transfer Learning with Meta Update for Cross Subject EEG Classification"
 
 1) Setting up environment:
    The model is implemented with Pytorch, we recommend python 3.5 and PyTorch 0.4.0 with Anaconda.
