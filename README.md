@@ -31,7 +31,7 @@ Code for MUPS model introduced in "Ultra Efficient Transfer Learning with Meta U
    This produces data for our cross subject task, which is stored in ./data/cross_sub
    
 3) Running the model:
-   1) Pretraining on feature extractor
+   1) Pretraining of feature extractor
    
           python pre_train.py
      
