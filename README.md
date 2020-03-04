@@ -47,7 +47,7 @@ Code for MUPS model introduced in "Ultra Efficient Transfer Learning with Meta U
       
       
    
-This project depends on the following two repositories:
+This project depends heavily on the following two repositories:
    1) https://github.com/yaoyao-liu/meta-transfer-learning
    2) https://github.com/aliasvishnu/EEGNet
    
