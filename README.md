@@ -40,6 +40,7 @@ Code for MUPS model introduced in "Ultra Efficient Transfer Learning with Meta U
           python meta_adapt.py
       
 4) Acknowledgements:
+
     Our project utilized code from the following repositories:
     
     1) https://github.com/yaoyao-liu/meta-transfer-learning
