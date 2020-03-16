@@ -13,7 +13,7 @@ Code for MUPS model introduced in "Ultra Efficient Transfer Learning with Meta U
        conda install pytorch=0.4.0
        conda install scipy scikit-learn
    
-   Install other necessary dependencies:
+   Install other dependencies:
    
        pip install tqdm tensorboardX
        
