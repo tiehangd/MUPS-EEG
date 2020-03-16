@@ -11,7 +11,7 @@ Code for MUPS model introduced in "Ultra Efficient Transfer Learning with Meta U
        conda create --name mups python=3.5
        conda activate mups
        conda install pytorch=0.4.0
-       conda install scipy
+       conda install scipy scikit-learn
    
    Install other necessary dependencies:
    
