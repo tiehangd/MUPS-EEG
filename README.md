@@ -6,14 +6,14 @@ Code for MUPS model introduced in "Ultra Efficient Transfer Learning with Meta U
 
    The model is implemented with Pytorch, we recommend python 3.5 and PyTorch 0.4.0 with Anaconda.
    
-   Create a new environment and install PyTorch on it:
+   Create a new environment and install python packages in it:
    
        conda create --name mups python=3.5
        conda activate mups
        conda install pytorch=0.4.0
        conda install scipy
    
-   Install necessary python packages:
+   Install other necessary dependencies:
    
        pip install tqdm tensorboardX
        
