@@ -12,7 +12,7 @@ from collections import OrderedDict
 
 def data_gen(subject_list):
 
-    PATH='../data/'
+    PATH='./data/'
     NO_channels = 22
     NO_tests = 6*48
     Window_Length = 7*250
@@ -105,7 +105,7 @@ if __name__ == '__main__':
 		test_y=test_y[idx]
 		train_X = train_X[:12000,:,:]
 		train_y=train_y[:12000]
-		sio.savemat('../data/cross_sub/cross_subject_data_'+str(j)+'.mat', {"train_x": train_X, "train_y": train_y, "test_x": test_X, "test_y": test_y})
+		sio.savemat('./data/cross_sub/cross_subject_data_'+str(j)+'.mat', {"train_x": train_X, "train_y": train_y, "test_x": test_X, "test_y": test_y})
 
 
 
