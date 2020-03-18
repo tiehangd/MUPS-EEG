@@ -2,7 +2,7 @@
 [![Python](https://img.shields.io/badge/python-3.5-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/pytorch-0.4.0-%237732a8)](https://github.com/y2l/meta-transfer-learning/tree/master/pytorch)
 
-Code for MUPS model introduced in ["Ultra Efficient Transfer Learning with Meta Update for Cross Subject EEG Classification"](https://arxiv.org/pdf/2003.06113.pdf) by Tiehang Duan, Mihir Chauhan, Mohammad Abuzar Shaikh and Sargur Srihari.
+Code for MUPS model introduced in ["Ultra Efficient Transfer Learning with Meta Update for Cross Subject EEG Classification"](https://arxiv.org/pdf/2003.06113.pdf).
 
 
 ## Setting up environment
