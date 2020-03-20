@@ -77,9 +77,9 @@ if __name__ == '__main__':
     parser.add_argument('--pre_custom_weight_decay',
                         type=float, default=0.0005)
 
-    # Set and print the parameters
+    # Set the parameters
     args = parser.parse_args()
-    pprint(vars(args))
+    # pprint(vars(args))
 
     # Set the GPU id
     set_gpu(args.gpu)
