@@ -44,6 +44,7 @@ class MetaTrainer(object):
         self.args = args
 
         # Load meta-train set
+        print("Preparing dataset loader")
         self.trainset = Dataset('train', self.args)
         self.train_sampler = CategoriesSampler(self.trainset.label, self.args.num_batch, self.args.way, self.args.shot + self.args.train_query)
         self.train_loader = DataLoader(dataset=self.trainset, batch_sampler=self.train_sampler, num_workers=8, pin_memory=True)
@@ -54,6 +55,7 @@ class MetaTrainer(object):
         self.val_loader = DataLoader(dataset=self.valset, batch_sampler=self.val_sampler, num_workers=8, pin_memory=True)
         
         # Build meta-transfer learning model
+        print("Initializing model")
         self.model = MtlLearner(self.args)
 
         # Set optimizer 
