@@ -41,6 +41,7 @@ class PreTrainer(object):
         self.args = args
 
         # Load pretrain set
+        print("Preparing dataset loader")
         self.trainset = Dataset('train', self.args, train_aug=False)
         self.train_loader = DataLoader(dataset=self.trainset, batch_size=args.pre_batch_size, shuffle=True, num_workers=8, pin_memory=True)
 
@@ -53,6 +54,7 @@ class PreTrainer(object):
         num_class_pretrain = self.trainset.num_class
         
         # Build pretrain model
+        print("Initializing pretraining model")
         self.model = MtlLearner(self.args, mode='pre', num_cls=num_class_pretrain)
         #self.model=self.model.float()
         # Set optimizer
