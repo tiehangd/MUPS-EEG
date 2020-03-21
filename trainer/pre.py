@@ -54,7 +54,6 @@ class PreTrainer(object):
         num_class_pretrain = self.trainset.num_class
         
         # Build pretrain model
-        print("Initializing pretraining model")
         self.model = MtlLearner(self.args, mode='pre', num_cls=num_class_pretrain)
         #self.model=self.model.float()
         # Set optimizer
