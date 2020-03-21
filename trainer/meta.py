@@ -55,7 +55,6 @@ class MetaTrainer(object):
         self.val_loader = DataLoader(dataset=self.valset, batch_sampler=self.val_sampler, num_workers=8, pin_memory=True)
         
         # Build meta-transfer learning model
-        print("Initializing model")
         self.model = MtlLearner(self.args)
 
         # Set optimizer 
