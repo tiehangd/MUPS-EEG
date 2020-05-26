@@ -44,7 +44,24 @@ Code for MUPS model introduced in ["Ultra Efficient Transfer Learning with Meta 
    2) Meta adaptation 
    
           python meta_adapt.py
-      
+          
+          
+          
+## Citation
+
+Please cite our work if it is helpful in your research:
+
+```
+@article{Duan2020UltraET,
+  title={Ultra Efficient Transfer Learning with Meta Update for Cross Subject EEG Classification},
+  author={Tiehang Duan and Mihir Chauhan and Mohammad Abuzar Shaikh and Sargur N. Srihari},
+  journal={ArXiv},
+  year={2020},
+  volume={abs/2003.06113}
+}
+```
+
+
 ## Acknowledgements
 
   Implementation of MUPS model utilized code from the following repositories:
