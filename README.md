@@ -49,7 +49,7 @@ Code for MUPS model introduced in ["Ultra Efficient Transfer Learning with Meta 
           
 ## Citation
 
-Please cite our work if it is helpful in your research:
+Please cite our paper if it is helpful to your work:
 
 ```
 @article{Duan2020UltraET,
