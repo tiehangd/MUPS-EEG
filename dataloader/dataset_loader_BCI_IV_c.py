@@ -79,10 +79,13 @@ class DatasetLoader_BCI_IV_subjects(Dataset):
         val_y=test_y[:2000]
 
         train_win_x=train_win_x.astype('float32')       
-        test_win_x=test_win_x[500:,:,:,:].astype('float32')
-        test_win_y=test_win_y[500:]
-        val_win_x=test_win_x[:500,:,:,:].astype('float32')
-        val_win_y=test_win_y[:500]
+
+        val_win_x=test_win_x[:400,:,:,:].astype('float32')
+        val_win_y=test_win_y[:400]
+        
+        test_win_x=test_win_x[400:,:,:,:].astype('float32')
+        test_win_y=test_win_y[400:]
+
 
         self.X_val=val_win_x
         self.y_val=val_win_y
