@@ -46,8 +46,8 @@ def data_gen(subject_list):
                     data_return[NO_valid_trial,:,:] = np.transpose(a_X[int(a_trial[trial]):(int(a_trial[trial])+Window_Length),:22])
                     class_return[NO_valid_trial] = int(a_y[trial])
                     NO_valid_trial +=1
-            data.append(data_return[0:NO_valid_trial,:,:])
-            label.append(class_return[0:NO_valid_trial])
+        data.append(data_return[0:NO_valid_trial,:,:])
+        label.append(class_return[0:NO_valid_trial])
     
         NO_valid_trial = 0
         b_data=b['data']
@@ -68,8 +68,8 @@ def data_gen(subject_list):
                     data_return[NO_valid_trial,:,:] = np.transpose(b_X[int(b_trial[trial]):(int(b_trial[trial])+Window_Length),:22])
                     class_return[NO_valid_trial] = int(b_y[trial])
                     NO_valid_trial +=1
-            data.append(data_return[0:NO_valid_trial,:,:])
-            label.append(class_return[0:NO_valid_trial])
+        data.append(data_return[0:NO_valid_trial,:,:])
+        label.append(class_return[0:NO_valid_trial])
             #print(data_return.shape)
     data=tuple(data)
     label=tuple(label)
