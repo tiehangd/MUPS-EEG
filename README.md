@@ -18,7 +18,7 @@ Code for MUPS-EEG model introduced in ["Ultra Efficient Transfer Learning with M
    
    Install other dependencies:
    
-       pip install tqdm tensorboardX
+       pip install six tqdm tensorboardX
        
    Clone the repository:
    
