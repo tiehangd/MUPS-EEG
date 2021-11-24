@@ -13,7 +13,7 @@ Code for MUPS-EEG model introduced in ["Ultra Efficient Transfer Learning with M
    
        conda create --name mups python=3.5
        conda activate mups
-       conda install pytorch=0.4.0
+       conda install pytorch=0.4.0 -c pytorch
        conda install scipy scikit-learn
    
    Install other dependencies:
@@ -22,7 +22,7 @@ Code for MUPS-EEG model introduced in ["Ultra Efficient Transfer Learning with M
        
    Clone the repository:
    
-       git clone https://github.com/tiehangd/MUPS
+       git clone https://github.com/tiehangd/MUPS-EEG
        
 ## Dataset preparation
 
