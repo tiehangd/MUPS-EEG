@@ -52,12 +52,13 @@ Code for MUPS-EEG model introduced in ["Ultra Efficient Transfer Learning with M
 Please cite our paper if it is helpful to your work:
 
 ```
-@article{Duan2020,
-  title={Ultra Efficient Transfer Learning with Meta Update for Cross Subject EEG Classification},
-  author={Tiehang Duan and Mihir Chauhan and Mohammad Abuzar Shaikh and Jun Chu and Sargur N. Srihari},
-  journal={ArXiv},
-  year={2020},
-  volume={abs/2003.06113}
+@misc{duan2021ultra,
+      title={Ultra Efficient Transfer Learning with Meta Update for Cross Subject EEG Classification}, 
+      author={Tiehang Duan and Mihir Chauhan and Mohammad Abuzar Shaikh and Jun Chu and Sargur Srihari},
+      year={2021},
+      eprint={2003.06113},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
 }
 ```
 
